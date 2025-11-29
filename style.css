@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+main{
+    height: 100%;
+    width: 100%;
+     background-color: black;
+    color: green;
+    font-family: monospace;
+    padding: 2%;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    font-size: 2rem;
+}
+#navsec2{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.navelem{
+    cursor: pointer;
+}
